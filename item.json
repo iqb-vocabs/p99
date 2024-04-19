@@ -1,0 +1,84 @@
+{
+  "id": "https://raw.githubusercontent.com/iqb-vocabs/p99/master/item.json",
+  "label": [{
+    "lang": "de",
+    "value": "Testprofil - Item"
+  }],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Item"
+        }
+      ],
+      "entries": [
+        {
+          "id": "w1",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Vokabular Item"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v27/it/",
+            "allowMultipleValues": false
+          }
+        },
+        {
+          "id": "w2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Freitext Item"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+        {
+          "id": "w3",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Boolean Item"
+            }
+          ],
+          "type": "boolean",
+          "parameters": {
+            "trueLabel": [
+              {
+                "lang": "de",
+                "value": "störend"
+              }
+            ],
+            "falseLabel": [
+              {
+                "lang": "de",
+                "value": "nicht relevant"
+              }
+            ]
+          }
+        },{
+          "id": "w4",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Number Item"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        }
+      ]
+    }
+  ]
+}

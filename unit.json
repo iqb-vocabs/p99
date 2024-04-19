@@ -1,0 +1,84 @@
+{
+  "id": "https://raw.githubusercontent.com/iqb-vocabs/p99/master/unit.json",
+  "label": [{
+    "lang": "de",
+    "value": "Testprofil - Aufgabe"
+  }],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Item"
+        }
+      ],
+      "entries": [
+        {
+          "id": "a1",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Vokabular Aufgabe"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v34/se/",
+            "allowMultipleValues": true,
+            "hideNumbering": false
+          }
+        },
+        {
+          "id": "a2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Freitext Aufgabe"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "a3",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Boolean Aufgabe"
+            }
+          ],
+          "type": "boolean",
+          "parameters": {
+            "trueLabel": [
+              {
+                "lang": "de",
+                "value": "störend"
+              }
+            ],
+            "falseLabel": [
+              {
+                "lang": "de",
+                "value": "nicht relevant"
+              }
+            ]
+          }
+        },{
+          "id": "a4",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Number Aufgabe"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0
+          }
+        }
+      ]
+    }
+  ]
+}
