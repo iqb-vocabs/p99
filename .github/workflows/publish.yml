@@ -28,7 +28,9 @@ jobs:
           git config --global user.name githubuser
           git branch gh-pages
           git checkout gh-pages
-          git push --set-upstream origin gh-pages
+          git reset --hard
+          git commit --allow-empty -m "Initialising gh-pages branch"
+          git push --force
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
