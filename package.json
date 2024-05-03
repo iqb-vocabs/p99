@@ -5,7 +5,7 @@
   "license": "CC0-1.0",
   "description": "Description Testprofil",
   "scripts": {
-    "validate": "validate-md-profile -md"
+    "validate": "validate-md-profile"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/iqb-vocabs/p99#readme",
   "dependencies": {
-    "@iqb/validate-md-profile": "^0.7.4"
+    "@iqb/validate-md-profile": "^0.7.5"
   }
 }
