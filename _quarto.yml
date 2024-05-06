@@ -10,7 +10,7 @@ website:
     logo: IQB-klein.png
     search: true
     left:
-      - href: index.qmd
+      - href: docs/README.qmd
         text: "IQB Testprofil"
     right:
       - icon: github
