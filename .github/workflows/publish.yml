@@ -31,6 +31,7 @@ jobs:
           git reset --hard
       - name: Run ci 
         run: |
+          git checkout master
           npm ci
           npm run validate
           mv docs/README.qmd index.qmd
