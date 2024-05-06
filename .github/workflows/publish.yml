@@ -36,6 +36,8 @@ jobs:
           git checkout gh-pages
           git reset --hard master
           git reset --hard
+          git commit --allow-empty -m "Allow empty gh-pages branch"
+          git push origin gh-pages
   
       - name : Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
