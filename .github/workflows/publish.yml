@@ -28,7 +28,7 @@ jobs:
           git config --global user.email actions@github.com
           git config --global user.name githubuser
           git checkout gh-pages
-          git reset --hard master
+          git reset --hard
       - name: Run ci 
         run: |
           npm ci
