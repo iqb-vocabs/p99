@@ -27,14 +27,15 @@ jobs:
           git fetch origin
           git config --global user.email actions@github.com
           git config --global user.name githubuser
-          git checkout gh-pages
-          git reset --hard
       - name: Run ci 
         run: |
           git checkout master
           npm ci
           npm run validate
           mv docs/README.qmd index.qmd
+          git checkout gh-pages
+          git reset --hard master
+          git reset --hard
   
       - name : Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2

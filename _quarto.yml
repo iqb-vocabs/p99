@@ -7,10 +7,10 @@ website:
   page-navigation: true
   repo-url: https://github.com/iqb-vocabs/p99/
   navbar: 
-    logo: IQB-Klein.png
+    logo: IQB-klein.png
     search: true
     left:
-      - href: docs/README.qmd
+      - href: index.qmd
         text: "IQB Testprofil"
     right:
       - icon: github
