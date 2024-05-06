@@ -34,7 +34,6 @@ jobs:
           git checkout master
           npm ci
           npm run validate
-          mv docs/README.qmd index.qmd
   
       - name : Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2

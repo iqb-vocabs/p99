@@ -3,19 +3,22 @@ project:
 
 website:
   site-url: https://iqb-vocabs.github.io/p99/
-  title: "IQB"
   favicon: favicon.ico
   page-navigation: true
   repo-url: https://github.com/iqb-vocabs/p99/
   navbar: 
     logo: IQB-Klein.png
     search: true
+    left:
+      - href: docs/README.qmd
+        text: "IQB Testprofil"
     right:
       - icon: github
         href: https://github.com/iqb-vocabs/p99
         aria-label: Source Code
-    left:
-        - href: docs/README.qmd
+
+
+lang: de
 
 format:
   html:
