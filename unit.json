@@ -14,21 +14,6 @@
       ],
       "entries": [
         {
-          "id": "a1",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Vokabular Aufgabe"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v34/se/",
-            "allowMultipleValues": true,
-            "hideNumbering": false
-          }
-        },
-        {
           "id": "a2",
           "label": [
             {
