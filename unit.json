@@ -29,19 +29,6 @@
           }
         },
         {
-          "id": "a2",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Freitext Aufgabe"
-            }
-          ],
-          "type": "text",
-          "parameters": {
-            "format": "multiline"
-          }
-        },
-        {
           "id": "a3",
           "label": [
             {
