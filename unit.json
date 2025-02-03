@@ -41,13 +41,13 @@
             "falseLabel": [
               {
                 "lang": "de",
-                "value": "neinN"
+                "value": "nein"
               }
             ],
             "trueLabel": [
               {
                 "lang": "de",
-                "value": "jaJ"
+                "value": "ja"
               }
             ]
           }
