@@ -38,16 +38,16 @@
           ],
           "type": "boolean",
           "parameters": {
-            "trueLabel": [
-              {
-                "lang": "de",
-                "value": "ja"
-              }
-            ],
             "falseLabel": [
               {
                 "lang": "de",
                 "value": "nein"
+              }
+            ],
+            "trueLabel": [
+              {
+                "lang": "de",
+                "value": "ja"
               }
             ]
           }
