@@ -9,7 +9,7 @@
       "label": [
         {
           "lang": "de",
-          "value": "Item"
+          "value": "Aufgabe"
         }
       ],
       "entries": [
@@ -41,13 +41,13 @@
             "trueLabel": [
               {
                 "lang": "de",
-                "value": "störend"
+                "value": "ja"
               }
             ],
             "falseLabel": [
               {
                 "lang": "de",
-                "value": "nicht relevant"
+                "value": "nein"
               }
             ]
           }
