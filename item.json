@@ -32,13 +32,13 @@
           "label": [
             {
               "lang": "de",
-              "value": "Vokabular Item"
+              "value": "Vokabular Neue Item"
             }
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://w3id.org/iqb/v55/l1/",
-            "allowMultipleValues": false
+            "url": "https://skohub.io/nanoyan/v55/heads/master/w3id.org/iqb/v55/k1/",
+            "allowMultipleValues": true
           }
         },
         {
