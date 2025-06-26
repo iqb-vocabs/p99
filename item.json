@@ -37,7 +37,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://skohub.io/nanoyan/v55/heads/master/w3id.org/iqb/v55/k1/",
+            "url": "https://w3id.org/iqb/v99/v1/",
             "allowMultipleValues": true
           }
         },
