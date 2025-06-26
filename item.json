@@ -27,6 +27,21 @@
             "allowMultipleValues": false
           }
         },
+        "entries": [
+        {
+          "id": "w10",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Vokabular Item"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v55/l1/",
+            "allowMultipleValues": false
+          }
+        },
         {
           "id": "w2",
           "label": [
