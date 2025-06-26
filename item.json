@@ -28,20 +28,6 @@
           }
         },
         {
-          "id": "w10",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Vokabular Neue Item"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v99/v1/",
-            "allowMultipleValues": true
-          }
-        },
-        {
           "id": "w100",
           "label": [
             {
