@@ -42,6 +42,20 @@
           }
         },
         {
+          "id": "w100",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Vokabular Neue Item 100"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v99/v2/",
+            "allowMultipleValues": true
+          }
+        },
+        {
           "id": "w12",
           "label": [
             {
