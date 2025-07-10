@@ -6,9 +6,7 @@
       "value": "IQB Testprofil"
     }
   ],
-  "maintainer": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
-  "publisher": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
-  "creator": "",
+  "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "profiles": [
     "unit.json",
     "item.json"
