@@ -8,18 +8,6 @@ Publisher: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
 2 Profile definiert:
 
-# Testprofil - Aufgabe
-
-ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p99/master/unit.json`
-
-| Name/Label | Typ | Parameter | ID Profil-Eintrag |
-| :--- | :---: | :--- | :---: |
-| Vokabular Aufgabe | [Vokabular](https://w3id.org/iqb/v34/se/) | url: 'https://w3id.org/iqb/v34/se/', Mehrfachauswahl | a1 |
-| Boolean Aufgabe | Ja/Nein | Text für WAHR: ja, Text für FALSCH: nein | a3 |
-| Number Aufgabe |  | a4 |
-
-: {tbl-colwidths="[15,15,55,15]"}
-
 # Testprofil - Item
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p99/master/item.json`
@@ -31,7 +19,19 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p99/master/item.jso
 | Vokabular Neue Item 2 | [Vokabular](https://w3id.org/iqb/v10/i1/) | url: 'https://w3id.org/iqb/v10/i1/', Mehrfachauswahl | w12 |
 | Freitext Item | Text | Einzeilig, Sprache(n): de   | w2 |
 | Boolean Item | Ja/Nein | Text für WAHR: störend, Text für FALSCH: nicht relevant | w3 |
-| Number Item |  | w4 |
+| Number Item | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | w4 |
+
+: {tbl-colwidths="[15,15,55,15]"}
+
+# Testprofil - Aufgabe
+
+ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p99/master/unit.json`
+
+| Name/Label | Typ | Parameter | ID Profil-Eintrag |
+| :--- | :---: | :--- | :---: |
+| Vokabular Aufgabe | [Vokabular](https://w3id.org/iqb/v34/se/) | url: 'https://w3id.org/iqb/v34/se/', Mehrfachauswahl | a1 |
+| Boolean Aufgabe | Ja/Nein | Text für WAHR: ja, Text für FALSCH: nein | a3 |
+| Number Aufgabe | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | a4 |
 
 : {tbl-colwidths="[15,15,55,15]"}
 

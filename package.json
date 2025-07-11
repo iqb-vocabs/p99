@@ -1,6 +1,6 @@
 {
   "name": "p99",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "license": "CC0-1.0",
   "description": "Description Testprofil",
@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/iqb-vocabs/p99#readme",
   "dependencies": {
-    "@iqb/validate-md-profile": "^0.8.3"
+    "@iqb/validate-md-profile": "^0.8.5"
   }
 }
+
