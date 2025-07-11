@@ -117,8 +117,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#testprofil---item" id="toc-testprofil---item" class="nav-link active" data-scroll-target="#testprofil---item">Testprofil - Item</a></li>
-  <li><a href="#testprofil---aufgabe" id="toc-testprofil---aufgabe" class="nav-link" data-scroll-target="#testprofil---aufgabe">Testprofil - Aufgabe</a></li>
+  <li><a href="#testprofil---aufgabe" id="toc-testprofil---aufgabe" class="nav-link active" data-scroll-target="#testprofil---aufgabe">Testprofil - Aufgabe</a></li>
+  <li><a href="#testprofil---item" id="toc-testprofil---item" class="nav-link" data-scroll-target="#testprofil---item">Testprofil - Item</a></li>
   </ul>
 </nav>
     </div>
@@ -147,6 +147,46 @@ ul.task-list li input[type="checkbox"] {
 <p>ID of profile-store: <code>ptest</code></p>
 <p>Publisher: IQB - Institut zur Qualitätsentwicklung im Bildungswesen</p>
 <p>2 Profile definiert:</p>
+<section id="testprofil---aufgabe" class="level1">
+<h1>Testprofil - Aufgabe</h1>
+<p>ID of profile: <code>https://raw.githubusercontent.com/iqb-vocabs/p99/master/unit.json</code></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 55%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name/Label</th>
+<th style="text-align: center;">Typ</th>
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: center;">ID Profil-Eintrag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Vokabular Aufgabe</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v34/se/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v34/se/’, Mehrfachauswahl</td>
+<td style="text-align: center;">a1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Boolean Aufgabe</td>
+<td style="text-align: center;">Ja/Nein</td>
+<td style="text-align: left;">Text für WAHR: ja, Text für FALSCH: nein</td>
+<td style="text-align: center;">a3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Number Aufgabe</td>
+<td style="text-align: center;">Zahl</td>
+<td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein</td>
+<td style="text-align: center;">a4</td>
+</tr>
+</tbody>
+</table>
+</section>
 <section id="testprofil---item" class="level1">
 <h1>Testprofil - Item</h1>
 <p>ID of profile: <code>https://raw.githubusercontent.com/iqb-vocabs/p99/master/item.json</code></p>
@@ -198,49 +238,9 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td style="text-align: left;">Number Item</td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;">w4</td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="testprofil---aufgabe" class="level1">
-<h1>Testprofil - Aufgabe</h1>
-<p>ID of profile: <code>https://raw.githubusercontent.com/iqb-vocabs/p99/master/unit.json</code></p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 15%">
-<col style="width: 55%">
-<col style="width: 15%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Name/Label</th>
-<th style="text-align: center;">Typ</th>
-<th style="text-align: left;">Parameter</th>
-<th style="text-align: center;">ID Profil-Eintrag</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Vokabular Aufgabe</td>
-<td style="text-align: center;"><a href="https://w3id.org/iqb/v34/se/">Vokabular</a></td>
-<td style="text-align: left;">url: ‘https://w3id.org/iqb/v34/se/’, Mehrfachauswahl</td>
-<td style="text-align: center;">a1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Boolean Aufgabe</td>
-<td style="text-align: center;">Ja/Nein</td>
-<td style="text-align: left;">Text für WAHR: ja, Text für FALSCH: nein</td>
-<td style="text-align: center;">a3</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Number Aufgabe</td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;">a4</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">Zahl</td>
+<td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden</td>
+<td style="text-align: center;">w4</td>
 </tr>
 </tbody>
 </table>
