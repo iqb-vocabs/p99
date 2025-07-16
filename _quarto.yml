@@ -1,4 +1,4 @@
-project: 
+project:
   type: website
 
 website:
@@ -6,8 +6,8 @@ website:
   favicon: favicon.ico
   page-navigation: true
   repo-url: https://github.com/iqb-vocabs/p99/
-  navbar: 
-    logo: IQB-klein.png
+  navbar:
+    logo: iqb-logo-black.png
     search: true
     left:
       - href: index.qmd
