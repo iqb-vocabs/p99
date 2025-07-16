@@ -23,8 +23,6 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p99/master/item.jso
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
 | Vokabular Item | [Vokabular](https://w3id.org/iqb/v27/it/) | url: 'https://w3id.org/iqb/v27/it/', Einmalauswahl | w1 |
-| Vokabular Neue Item 8800 | [Vokabular](https://w3id.org/iqb/v99/v2/) | url: 'https://w3id.org/iqb/v99/v2/', Mehrfachauswahl | w100 |
-| Vokabular Neue Item 2 | [Vokabular](https://w3id.org/iqb/v10/i1/) | url: 'https://w3id.org/iqb/v10/i1/', Mehrfachauswahl | w12 |
 | Freitext Item | Text | Einzeilig, Sprache(n): de   | w2 |
 | Boolean Item | Ja/Nein | Text für WAHR: störend, Text für FALSCH: nicht relevant | w3 |
 | Number Item | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | w4 |

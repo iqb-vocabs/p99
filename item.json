@@ -28,34 +28,6 @@
           }
         },
         {
-          "id": "w100",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Vokabular Neue Item 8800"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v99/v2/",
-            "allowMultipleValues": true
-          }
-        },
-        {
-          "id": "w12",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Vokabular Neue Item 2"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v10/i1/",
-            "allowMultipleValues": true
-          }
-        },
-        {
           "id": "w2",
           "label": [
             {
