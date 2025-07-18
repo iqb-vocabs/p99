@@ -26,4 +26,5 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p99/master/item.jso
 | Freitext Item | Text | Einzeilig, Sprache(n): de   | w2 |
 | Boolean Item | Ja/Nein | Text für WAHR: störend, Text für FALSCH: nicht relevant | w3 |
 | Number Item | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | w4 |
+| Number Item 2  | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | w5 |
 
