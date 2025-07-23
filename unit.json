@@ -14,11 +14,27 @@
       ],
       "entries": [
           {
-          "id": "a1",
+          "id": "a11",
           "label": [
             {
               "lang": "de",
-              "value": "Vokabular Aufgabe"
+              "value": "Vokabular Aufgabe dialog"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v34/se/",
+            "allowMultipleValues": true,
+            "hideNumbering": false,
+            "selectionMode": "dialog"
+          }
+        },
+        {
+          "id": "a12",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Vokabular Aufgabe implicit"
             }
           ],
           "type": "vocabulary",
@@ -26,6 +42,22 @@
             "url": "https://w3id.org/iqb/v34/se/",
             "allowMultipleValues": true,
             "hideNumbering": false
+          }
+        },
+        {
+          "id": "a13",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Vokabular Aufgabe in-form"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v34/se/",
+            "allowMultipleValues": true,
+            "hideNumbering": false,
+            "selectionMode": "in-form"
           }
         },
         {
