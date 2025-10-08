@@ -82,14 +82,13 @@
           "label": [
             {
               "lang": "de",
-              "value": "Number Item 2 "
+              "value": "Test Vokabular"
             }
           ],
-          "type": "number",
+          "type": "vocabulary",
           "parameters": {
-            "minValue": 0,
-            "digits": 0,
-            "isPeriodSeconds": true
+            "url": "https://w3id.org/iqb/v99/v3/",
+            "allowMultipleValues": true
           }
         }
       ]
