@@ -88,7 +88,8 @@
           "type": "vocabulary",
           "parameters": {
             "url": "https://w3id.org/iqb/v99/v3/",
-            "allowMultipleValues": true
+            "allowMultipleValues": true,
+            "maxLevel": 1
           }
         }
       ]

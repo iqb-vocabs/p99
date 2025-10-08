@@ -28,5 +28,5 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p99/master/item.jso
 | Freitext Item | Text | Einzeilig, Sprache(n): de   | w2 |
 | Boolean Item | Ja/Nein | Text für WAHR: störend, Text für FALSCH: nicht relevant | w3 |
 | Number Item | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | w4 |
-| Test Vokabular | [Vokabular](https://w3id.org/iqb/v99/v3/) | url: 'https://w3id.org/iqb/v99/v3/', Mehrfachauswahl, Dialogbox | w5 |
+| Test Vokabular | [Vokabular](https://w3id.org/iqb/v99/v3/) | url: 'https://w3id.org/iqb/v99/v3/', Mehrfachauswahl, Zeige nur erste Ebene, Dialogbox | w5 |
 
