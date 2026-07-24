@@ -1,9 +1,14 @@
 {
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p99/master/item.json",
-  "label": [{
-    "lang": "de",
-    "value": "Testprofil - Item"
-  }],
+  "label": [
+    {
+      "lang": "de",
+      "value": "Testprofil - Item"
+    }
+  ],
+  "target": [
+    "ITEM"
+  ],
   "groups": [
     {
       "label": [
@@ -21,9 +26,9 @@
               "value": "Freitext Item A"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "single"
+            "format": "SINGLE"
           }
         },
         {
@@ -34,7 +39,7 @@
               "value": "Boolean Item"
             }
           ],
-          "type": "boolean",
+          "type": "BOOLEAN",
           "parameters": {
             "trueLabel": [
               {
@@ -49,7 +54,8 @@
               }
             ]
           }
-        },{
+        },
+        {
           "id": "w4",
           "label": [
             {
@@ -57,13 +63,14 @@
               "value": "Number Item"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
             "isPeriodSeconds": true
           }
-        },{
+        },
+        {
           "id": "w5",
           "label": [
             {
@@ -71,7 +78,7 @@
               "value": "Test Vokabular"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v99/v3/",
             "allowMultipleValues": true,
