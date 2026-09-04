@@ -4,13 +4,27 @@
     "href": "docs/changelog.html",
     "title": "",
     "section": "",
-    "text": "Änderung von Version 0.5.0 auf Version 0.6.0\nAktualisierung der Abhängigkeit auf @iqb/validate-md-profile@^0.10.8. Die IDs für das Metadatenprofil wurden durch w3id ersetzt.\n\n\nÄnderung von Version 0.4.0 auf Version 0.5.0\nDie Metadatenprofile wurden auf der„metadata-profile@iqb-standard0.11“ umgesetzt. Schema sind abrufbar unten: metadata-profile@iqb-standard0.11"
+    "text": "Änderung von Version 0.6.0 auf Version 0.7.0\nDie Testprofile werden mit „In-Form“ Mehrfachauswahl Vokabeln und „In-Form“ Einmalauswahl Vokabeln bereitgestellt.\n\n\nÄnderung von Version 0.5.0 auf Version 0.6.0\nAktualisierung der Abhängigkeit auf @iqb/validate-md-profile@^0.10.8. Die IDs für das Metadatenprofil wurden durch w3id ersetzt.\n\n\nÄnderung von Version 0.4.0 auf Version 0.5.0\nDie Metadatenprofile wurden auf der„metadata-profile@iqb-standard0.11“ umgesetzt. Schema sind abrufbar unten: metadata-profile@iqb-standard0.11"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "IQB Testprofil",
     "section": "",
-    "text": "ID of profile-store: ptest\nCreator: IQB - Institut zur Qualitätsentwicklung im Bildungswesen\n2 Profile definiert:\n\nTestprofil - Aufgabe\nID of profile: https://w3id.org/iqb/p99/unit/\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nVokabular Aufgabe Implicit\nVokabular\nurl: ‘https://w3id.org/iqb/v34/se/’, Mehrfachauswahl, Dialogbox\na12\n\n\nVokabular Aufgabe In-form\nVokabular\nurl: ‘https://w3id.org/iqb/v34/se/’, Mehrfachauswahl, integrierte Darstellung\na13\n\n\nBoolean Aufgabe JA/NEIN\nJa/Nein\nText für WAHR: ja, Text für FALSCH: nein\na3\n\n\nNumber Aufgabe\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\na4\n\n\n\n\n\nTestprofil - Item\nID of profile: https://w3id.org/iqb/p99/item/\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nFreitext Item A\nText\nEinzeilig, Sprache(n): de\nw2\n\n\nBoolean Item\nJa/Nein\nText für WAHR: störend, Text für FALSCH: nicht relevant\nw3\n\n\nNumber Item\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\nw4\n\n\nTest Vokabular\nVokabular\nurl: ‘https://w3id.org/iqb/v99/v3/’, Mehrfachauswahl, Zeige nur erste Ebene, Dialogbox\nw5"
+    "text": "ID of profile-store: ptest\nCreator: IQB - Institut zur Qualitätsentwicklung im Bildungswesen\n2 Profile definiert:"
+  },
+  {
+    "objectID": "index.html#stimulus",
+    "href": "index.html#stimulus",
+    "title": "IQB Testprofil",
+    "section": "Stimulus",
+    "text": "Stimulus\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nEntwickler:in\nText\nEinzeilig, Sprache(n): de\niqb_author\n\n\nKlassenstufe\nVokabular\nurl: ‘http://w3id.org/openeduhub/vocabs/educationalLevel/’, Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt\niqb_educational_level\n\n\nTest Vokabular In-Form One Aufgabenbereiche\nVokabular\nurl: ‘https://w3id.org/iqb/v53/n1/’, Einmalauswahl, Zeige nur erste Ebene, integrierte Darstellung, Nummerierung unterdrückt\nq5\n\n\nTest Vokabular In_form Multiple Art der Quelle\nVokabular\nurl: ‘https://w3id.org/iqb/v28/aq/’, Mehrfachauswahl, Zeige nur erste Ebene, integrierte Darstellung\nq6\n\n\nSchulform\nVokabular\nurl: ‘https://w3id.org/kim/schularten/’, Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt\niqb_school_type\n\n\nFür SPF geeignet\nJa/Nein\nText für WAHR: ja, Text für FALSCH: nein\niqb_spf\n\n\nhilfsmittelfrei\nJa/Nein\nText für WAHR: ja, Text für FALSCH: nein\niqb_unassisted\n\n\nKopfhörereinsatz\nVokabular\nurl: ‘https://w3id.org/iqb/v24/kh/’, Mehrfachauswahl, integrierte Darstellung, Nummerierung unterdrückt\niqb_phones\n\n\nLeitidee\nVokabular\nurl: ‘https://w3id.org/iqb/v51/im/’, Einmalauswahl, Zeige nur erste Ebene, Dialogbox, Nummerierung unterdrückt\niqb_competence\n\n\nStimuluszeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_stimulus\n\n\nAufgabenzeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_unit\n\n\nQuellenangaben\nText\nMehrzeilig, Sprache(n): de\niqb_copyright\n\n\nNotizfeld\nText\nMehrzeilig, Sprache(n): de\niqb_note_field\n\n\nUnverträgliche Aufgaben\nText\nEinzeilig, Sprache(n): de\niqb_compatibility"
+  },
+  {
+    "objectID": "index.html#hörsequenzvideo",
+    "href": "index.html#hörsequenzvideo",
+    "title": "IQB Testprofil",
+    "section": "Hörsequenz/Video",
+    "text": "Hörsequenz/Video\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nAnzahl Vorspielen\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_time_play\n\n\nTranskript\nText\nMehrzeilig, Sprache(n): de\niqb_transcript"
   }
 ]
