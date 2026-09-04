@@ -1,60 +1,101 @@
 {
   "id": "https://w3id.org/iqb/p99/unit/",
-  "label": [
-    {
-      "lang": "de",
-      "value": "Testprofil - Aufgabe"
-    }
-  ],
-  "target": [
-    "UNIT"
-  ],
+  "label": [{
+    "lang": "de",
+    "value": "Testprofil - Aufgabe"
+  }],
+  "target": ["UNIT"],
   "groups": [
     {
       "label": [
         {
           "lang": "de",
-          "value": "Aufgabe"
+          "value": "Stimulus"
         }
       ],
       "entries": [
         {
-          "id": "a12",
+          "id": "iqb_author",
           "label": [
             {
               "lang": "de",
-              "value": "Vokabular Aufgabe Implicit"
+              "value": "Entwickler:in"
             }
           ],
-          "type": "VOCABULARY",
+          "type": "TEXT",
           "parameters": {
-            "url": "https://w3id.org/iqb/v34/se/",
-            "allowMultipleValues": true,
-            "hideNumbering": false
+            "format": "SINGLE"
           }
         },
         {
-          "id": "a13",
+          "id": "iqb_educational_level",
           "label": [
             {
               "lang": "de",
-              "value": "Vokabular Aufgabe In-form"
+              "value": "Klassenstufe"
             }
           ],
           "type": "VOCABULARY",
           "parameters": {
-            "url": "https://w3id.org/iqb/v34/se/",
+            "url": "http://w3id.org/openeduhub/vocabs/educationalLevel/",
             "allowMultipleValues": true,
-            "hideNumbering": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "q5",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Test Vokabular In-Form One Aufgabenbereiche"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v53/n1/",
+            "allowMultipleValues": false,
+            "maxLevel": 1,
+            "selectionMode": "IN_FORM",
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "q6",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Test Vokabular In_form Multiple Art der Quelle"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v28/aq/",
+            "allowMultipleValues": true,
+            "maxLevel": 1,
             "selectionMode": "IN_FORM"
           }
         },
         {
-          "id": "a3",
+          "id": "iqb_school_type",
           "label": [
             {
               "lang": "de",
-              "value": "Boolean Aufgabe JA/NEIN"
+              "value": "Schulform"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/kim/schularten/",
+            "allowMultipleValues": true,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_spf",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Für SPF geeignet"
             }
           ],
           "type": "BOOLEAN",
@@ -74,17 +115,165 @@
           }
         },
         {
-          "id": "a4",
+          "id": "iqb_unassisted",
           "label": [
             {
               "lang": "de",
-              "value": "Number Aufgabe"
+              "value": "hilfsmittelfrei"
+            }
+          ],
+          "type": "BOOLEAN",
+          "parameters": {
+            "trueLabel": [
+              {
+                "lang": "de",
+                "value": "ja"
+              }
+            ],
+            "falseLabel": [
+              {
+                "lang": "de",
+                "value": "nein"
+              }
+            ]
+          }
+        },
+        {
+          "id": "iqb_phones",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Kopfhörereinsatz"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v24/kh/",
+            "allowMultipleValues": true,
+            "hideNumbering": true,
+            "selectionMode": "IN_FORM"
+          }
+        },
+        {
+          "id": "iqb_competence",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Leitidee"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v51/im/",
+            "allowMultipleValues": false,
+            "hideNumbering": true,
+            "maxLevel": 1
+          }
+        },
+        {
+          "id": "iqb_time_stimulus",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Stimuluszeit"
+            }
+          ],
+          "type": "NUMBER",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "iqb_time_unit",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Aufgabenzeit"
+            }
+          ],
+          "type": "NUMBER",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "iqb_copyright",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Quellenangaben"
+            }
+          ],
+          "type": "TEXT",
+          "parameters": {
+            "format": "MULTILINE"
+          }
+        },
+        {
+          "id": "iqb_note_field",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Notizfeld"
+            }
+          ],
+          "type": "TEXT",
+          "parameters": {
+            "format": "MULTILINE"
+          }
+        },
+        {
+          "id": "iqb_compatibility",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Unverträgliche Aufgaben"
+            }
+          ],
+          "type": "TEXT",
+          "parameters": {
+            "format": "SINGLE"
+          }
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Hörsequenz/Video"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_time_play",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Anzahl Vorspielen"
             }
           ],
           "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0
+          }
+        },
+        {
+          "id": "iqb_transcript",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Transkript"
+            }
+          ],
+          "type": "TEXT",
+          "parameters": {
+            "format": "MULTILINE"
           }
         }
       ]

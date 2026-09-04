@@ -1,3 +1,7 @@
+### Änderung von Version 0.6.0 auf Version 0.7.0
+
+Die Testprofile werden mit „In-Form“ Mehrfachauswahl Vokabeln und „In-Form“ Einmalauswahl Vokabeln bereitgestellt.
+
 ### Änderung von Version 0.5.0 auf Version 0.6.0
 
 Aktualisierung der Abhängigkeit auf @iqb/validate-md-profile@^0.10.8.
